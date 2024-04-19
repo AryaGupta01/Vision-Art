@@ -1,8 +1,31 @@
-# React + Vite
+# Vision Art
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vision Art is a web-based platform that serves as a virtual art gallery, showcasing artworks from both emerging and established artists. With a focus on promoting and supporting the arts community, Vision Art enables users to browse artworks by category, style, or artist. The platform offers features such as virtual exhibitions, artist profiles, and online art sales.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Browse Artworks**: Users can explore a diverse collection of artworks organized by category, style, or artist.
+- **Virtual Exhibitions**: Experience curated virtual exhibitions that showcase thematic collections of artworks.
+- **Artist Profiles**: Discover and learn more about individual artists through detailed profiles showcasing their portfolio and background.
+- **Online Art Sales**: Purchase artworks securely through the platform, supporting artists directly.
+- **User Accounts**: Users can create accounts to personalize their experience, save favorite artworks, and upload their own work for commercial use.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript (React.js)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Deployment**: Heroku, MongoDB Atlas
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/vision-art.git
+
+2. Install dependencies:
+
+```bash
+cd vision-art
+npm install

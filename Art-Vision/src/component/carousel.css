@@ -1,0 +1,14 @@
+slider{
+    height:50%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    position:relative;
+    justify-content:center;
+    object-fit:cover;
+}
+slider div{
+    height:100%;
+    
+
+}
