@@ -56,11 +56,17 @@ html,body{
     width:100%;
     margin-top:80px;
     margin-bottom:40px;
-    border-right
+    border-right:none;
+    border-left:none;
     display:flex;
     align-items:center;
     justify-content:center;
     font-size:25px;
     border:2px solid black;
     
+}
+.card{
+    height:30%;
+    width:100%;
+    border:;
 }
