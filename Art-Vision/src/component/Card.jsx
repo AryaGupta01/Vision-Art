@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Card.css';
 const Card = ({ image, imageName, artistName, prize }) => {
   return (
     <div className="card">
@@ -7,8 +7,8 @@ const Card = ({ image, imageName, artistName, prize }) => {
       <div className="card-content">
         <p className="card-title">{imageName}</p>
         <div className="card-details">
-          <p className="card-artist">{artistName}</p>
-          <p className="card-prize">Prize: {prize}</p>
+          <p className="card-artist">Artist : {artistName}</p>
+          <p className="card-prize">Price: {prize}</p>
         </div>
       </div>
     </div>

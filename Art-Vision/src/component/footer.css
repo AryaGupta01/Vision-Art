@@ -1,0 +1,39 @@
+#footer-style{
+    height:100%;
+    width:100%;
+    padding-top:2%;
+}
+.card-text-center{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.card-header{
+    height:30%;
+    width:100%;
+    font-size:30px;
+    padding-bottom:2%;
+    letter-spacing:1px;
+    word-spacing:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:2%;
+}
+.card-body{
+    height:70%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}
+.card-body h5{
+    margin-bottom:4%;
+}
+.card-footer-text-body-secondary{
+    margin-bottom:3%;
+}

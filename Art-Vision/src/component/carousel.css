@@ -1,9 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 .slick-slide {
+  height:100%;
+  width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y:hidden;
   }
   
   .slick-slide img {
@@ -11,5 +15,4 @@
     height: auto;
     display: block;
     margin: 0 auto;
-    overflow-y:hidden;
   }

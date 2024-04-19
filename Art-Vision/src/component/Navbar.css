@@ -6,6 +6,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 20%;
 }
 
 ul {
@@ -16,7 +17,6 @@ ul {
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    display: flex;
     justify-content: space-around;
     margin-left: 20%;
 }
@@ -48,8 +48,33 @@ a {
     color: #fff;
     font-size: 15px;
     color: black;
+    font-weight:700;
+    font-size:;
 }
-
+#category{
+    height:100%;
+    width:auto;
+    position:relative;
+    color:black;
+    font-weight:700;
+}
 a:hover {
     text-decoration: underline;
+}
+.sub-nav{
+    height:20%;
+    width:10%;
+    margin-top:12%;
+    margin-left:1%;
+    background-color:#ebebed;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    flex-direction: column;
+    z-index:1;
+}
+.sub-nav li{
+    width:100%;
+    border-bottom:1px solid white;
 }
