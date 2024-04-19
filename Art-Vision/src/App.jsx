@@ -6,7 +6,8 @@ import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import Fileinput from './component/Fileinput';
 import Carousel from './component/Carousel';
-
+import Card from './component/Card';
+import Cardimg1 from './assets/GNDU/img01.jpg';
 const Home = () => <h1>Home Page</h1>;
 const Category = () => <h1>Category Page</h1>;
 const Style = () => <h1>Style Page</h1>;
@@ -19,30 +20,43 @@ function App() {
 
   return (
     <>
-      <div id="menu-bar">
-        <div id="logo">
-        </div>
-        <div id="nav">
-          <Navbar />
+    <div id="main">
+    <div id="page1">
+        <div id="menu-bar">
+          <div id="logo">
+          </div>
+          <div id="nav">
+            <Navbar />
 
 
-          {/* Add other components here as needed */}
+            {/* Add other components here as needed */}
+          </div>
+          <div id="sign-in">
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+          </div>
         </div>
-        <div id="sign-in">
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
-        </div>
+      
+      
+        <Carousel id="banner"/>
       </div>
-      
-      
-        <Carousel id="banner" />
-      
-      <Fileinput/>
-      <Footer />
+      <div id="page2">
+        <div id="feat-art">Featured Artworks</div>
+        <div>
+      {/* Other components in your app */}
+      <Card class="card" image={Cardimg1} imageName="image1" artistName="ayush" prize="Rs 300" />
+      <Card class="card" image={Cardimg1} imageName="image1" artistName="ayush" prize="Rs 300" />
+      <Card class="card" image={Cardimg1} imageName="image1" artistName="ayush" prize="Rs 300" />
+      <Card class="card" image={Cardimg1} imageName="image1" artistName="ayush" prize="Rs 300" />
+    </div>
+        <Fileinput/>
+        <Footer />
+      </div>
+    </div>
     </>
   );
 }

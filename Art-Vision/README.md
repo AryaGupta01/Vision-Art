@@ -19,13 +19,7 @@ Vision Art is a web-based platform that serves as a virtual art gallery, showcas
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/vision-art.git
-
-2. Install dependencies:
-
-```bash
-cd vision-art
-npm install
+- Clone the repository.
+- Install the dependencies.
+- Set the environment variables.
+- Start the development server.

@@ -1,11 +1,19 @@
-#logo{
-    height:200%;
-    width:10%;
-    border:2px solid black;
-    /* background-image:url("logo.png");
-    background-size: cover;
-    background-position: center; */
-    background-color:red;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+
+}
+#page1{
+    height:100%;
+    width:100%;
 }
 #menu-bar{
     height:50%;
@@ -14,24 +22,45 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    margin-left:15%;
+    margin-left:20%;
+}
+#logo{
+    height:100%;
+    width:10%;
+    border:2px solid black;
+    background-image:url("logo.png");
+    background-size: cover;
+    background-position: center;
 }
 #nav{
     height:100%;
-    width:70%;
+    width:60%;
 }
 #sign-in{
     height:100%;
-    width:20%;
+    width:auto;
     border-radius:25px;
     overflow:hidden;
+    margin-right:20%;
 }
 #banner{
-    height:50%;
+    overflow-y:hidden;
+}
+#page2{
+    height:100%;
     width:100%;
+
+}
+#feat-art{
+    height:30%;
+    width:100%;
+    margin-top:80px;
+    margin-bottom:40px;
+    border-right
     display:flex;
     align-items:center;
     justify-content:center;
-    object-fit:cover;
+    font-size:25px;
+    border:2px solid black;
     
 }

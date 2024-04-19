@@ -2,9 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import banner01 from '../assets/Banner_image/banner01.jpg'; // Adjust the path as needed
+ // Adjust the path as needed
+import banner01 from '../assets/Banner_image/banner01.jpg';
 import banner02 from '../assets/Banner_image/banner02.jpg'; // Adjust the path as needed
 import banner03 from '../assets/Banner_image/banner03.jpg'; // Adjust the path as needed
+import b1 from '../assets/Banner_image/banner01.png'; // Adjust the path as needed
+import b2 from '../assets/Banner_image/banner02.png'; // Adjust the path as needed
+import b3 from '../assets/Banner_image/banner03.png'; // Adjust the path as needed
+
 import './carousel.css';
 const Carousel = () => {
   const settings = {
@@ -37,16 +42,16 @@ const Carousel = () => {
 
   return (
     <div>
-      <h2>Carousel</h2>
-      <Slider {...settings}>
+      
+      <Slider id="slide" {...settings}>
         <div>
-          <img src={banner01} alt="Banner 1" />
+          <img src={b1} alt="Banner 1" />
         </div>
         <div>
-          <img src={banner02} alt="Banner 2" />
+          <img src={b2} alt="Banner 2" />
         </div>
         <div>
-          <img src={banner03} alt="Banner 3" />
+          <img src={b3} alt="Banner 3" />
         </div>
       </Slider>
     </div>

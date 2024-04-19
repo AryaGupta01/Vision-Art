@@ -1,14 +1,15 @@
-slider{
-    height:50%;
-    width:100%;
-    display:flex;
-    align-items:center;
-    position:relative;
-    justify-content:center;
-    object-fit:cover;
-}
-slider div{
-    height:100%;
-    
 
-}
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:hidden;
+  }
+  
+  .slick-slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow-y:hidden;
+  }
