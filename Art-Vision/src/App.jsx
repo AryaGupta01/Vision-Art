@@ -4,7 +4,10 @@ import Home from './pages/Home';
 import Exhibition from './pages/Exhibition';
 import Artist from './pages/Artist';
 import Painting from './pages/Painting';
-import ContactUs from './pages/ContactUs';
+import Sculpture from './pages/Sculpture';
+import Style from './pages/Style';
+import ContactForm from './pages/ContactForm';
+import Photography from './pages/Photography';
 function App() {
  
 
@@ -15,10 +18,11 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path="/Exhibition" element={< Exhibition/>} />
     <Route path="/Artist" element={< Artist/>} />
+    <Route path="/Style" element={< Style/>} />
     <Route path="/category/Painting" element={< Painting/>} />
-    <Route path="/category/Painting" element={< Painting/>} />
-    <Route path="/category/Painting" element={< Painting/>} />
-    <Route path="/contact-us" element={< ContactUs/>} />
+    <Route path="/category/Sculpture" element={< Sculpture/>} />
+    <Route path="/category/Photography" element={< Photography/>} />
+    <Route path="/contact-us" element={< ContactForm/>} />
    </Routes>
    </BrowserRouter>
   </>

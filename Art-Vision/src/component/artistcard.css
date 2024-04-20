@@ -1,0 +1,24 @@
+.card {
+    width: 18rem;
+    height: 25rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+/* .card-img-top {
+    height: 300px;
+} */
+
+#image {
+    height: 150px;
+    overflow: hidden;
+}

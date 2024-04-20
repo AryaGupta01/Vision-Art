@@ -1,0 +1,25 @@
+#menu-bar{
+    display:flex;
+    flex-direction: row;
+}
+#logo img{
+    height:80px;
+    width:80px;
+    /* margin:0px 0px 0px 0px; */
+    /* transform:scale(1.5); */
+}
+#logo{
+    height:60px;
+    width:60px;
+    /* border:2px solid black; */
+    margin: 0% 0% 0% 0%;
+    padding: 0%;
+
+}
+#sign-in{
+    height:60px;
+    width:60px;
+    border-radius:25px;
+    margin: 0% 0% 0% 0%;
+    padding: 0%;
+}

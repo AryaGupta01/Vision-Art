@@ -15,6 +15,7 @@ const Navbar = () => {
   const handleMouseLeave = () => setIsSubNavOpen(false);
 
   return (
+    <>
     <nav>
       <ul>
         <li><Link to="/">Home</Link></li>
@@ -39,7 +40,7 @@ const Navbar = () => {
         <li><Link to="/exhibition">Exhibition</Link></li>
         <li><Link to="/contact-us">Contact Us</Link></li>
       </ul>
-    </nav>
+    </nav></>
   );
 };
 

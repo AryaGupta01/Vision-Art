@@ -2,6 +2,7 @@
     height:100%;
     width:100%;
     padding-top:2%;
+    
 }
 .card-text-center{
     height:100%;
@@ -23,17 +24,17 @@
     justify-content:center;
     margin-bottom:2%;
 }
-.card-body{
-    height:70%;
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:50px;
+#maker-name{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
 }
-.card-body h5{
-    margin-bottom:4%;
-}
-.card-footer-text-body-secondary{
-    margin-bottom:3%;
+#maker-name h5{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5%;
+
 }

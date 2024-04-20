@@ -1,0 +1,41 @@
+/* In your stylesheet (e.g., App.css) */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top:100px;
+    margin-bottom: 100px;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form p.error,
+  form p.success {
+    color: red;
+    /* or green for success */
+  }
+  
+  form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #3e8e41;
+  }
+  

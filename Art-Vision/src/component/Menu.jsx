@@ -4,13 +4,14 @@ import React from 'react';
 import './menu.css';
 import Navbar from '../component/Navbar';
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
-
+import logo from '../assets/logo.png'
 
 const Menu = () => {
   return (
     <div>
           <div id="menu-bar">
      <div id="logo">
+      <img src={logo}></img>
      </div>
      <div id="nav">
       <Navbar />

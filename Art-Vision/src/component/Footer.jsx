@@ -11,20 +11,18 @@ const Footer = () => {
         <div class="card-header">
           Makers Of This Website
         </div>
-        <div class="card-body">
-          <h5 class="maker-name">Aayush Bhadula</h5>
+        <div id='maker-name'>
+          <h5>Aayush Bhadula</h5>
           <h5>|</h5>
-          <h5 class="maker-name">Archit Aggarwal</h5>
+          <h5>Arya Gupta</h5>
           <h5>|</h5>
-          <h5 class="maker-name">Arya Gupta</h5>
+          <h5>Archit Aggarwal</h5>
           <h5>|</h5>
-          <h5 class="maker-name">Aditya Tyagi</h5>
+          <h5>Aditya Tyagi</h5>
         </div>
-        <div class="card-footer-text-body-secondary">
           @2024 Copyright By Innovate | Powered by Hackathon
         </div>
       </div>
-    </div>
   );
 };
 

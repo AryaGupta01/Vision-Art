@@ -1,0 +1,126 @@
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+}
+@keyframes flowUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the distance up or down */
+    }
+}
+#title-box{
+    height:70vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:350px;
+}
+#title{
+    height:70vh;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:110px;
+    animation: slideFromLeft 2s ease-in-out forwards;
+}
+#paint-img{
+    height:50vh;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#paint-image img{
+    height:70vh;
+    width:100%;
+    scale:3;
+}
+#flowerimg{
+    animation: slideFromRight 2s ease-in-out forwards;
+}
+#eyeimg{
+    margin-top:20%;
+    animation: slideFromRight 2s ease-in-out forwards;
+}
+#krishnaimg{
+    
+    animation: slideFromRight 2s ease-in-out forwards;
+}
+
+
+#oilpastel{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start offscreen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move offscreen to the left */
+    }
+}
+
+/* Apply the animation to the container element */
+.marquee-container {
+    overflow: hidden;
+    gap: 120px;
+}
+
+/* Additional styling for the text elements */
+
+.oil-text {
+    height: 100%;
+    width: 20%;
+    display: flex; /* Display text as inline-block to allow transform */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: marquee 10s linear infinite; /* 10s duration, linear timing, infinite loop */
+}
+#painting-container{
+    margin-top: 4%;
+    margin-bottom: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    padding:0 10% 0 10%;
+    gap:30px;
+}
+#painting-container .card{
+    margin-top: 40%;
+}
+
+.card-title{
+    margin-top: 20%;
+}
+#sunflower{
+    margin-top:30%;
+}
