@@ -56,14 +56,17 @@
     scale:3;
 }
 #flowerimg{
+    overflow:hiden;
+    margin-right: -20%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 #eyeimg{
     margin-top:20%;
+    margin-right: 15%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 #krishnaimg{
-    
+    margin-top: 5%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 
@@ -74,6 +77,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
     font-size: 50px;
     border: 2px solid black;
     border-left: none;

@@ -1,3 +1,6 @@
+#main{
+    overflow-x: hidden;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;

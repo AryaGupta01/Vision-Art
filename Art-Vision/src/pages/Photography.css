@@ -40,7 +40,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:110px;
+    font-size:80px;
     animation: slideFromLeft 2s ease-in-out forwards;
 }
 #paint-img{
@@ -56,14 +56,16 @@
     scale:3;
 }
 #flowerimg{
+    margin-left: 60%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 #eyeimg{
     margin-top:20%;
+    margin-left: 25%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 #krishnaimg{
-    
+    margin-right: 120%;
     animation: slideFromRight 2s ease-in-out forwards;
 }
 

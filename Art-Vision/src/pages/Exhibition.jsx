@@ -19,8 +19,9 @@ import art8 from '../assets/exhibition-images/art2.jpeg';
 
 const Exhibition = () => {
   return (
-    <div>
+    <div id="main">
       <Menu />
+      
       <div class="grid">
         <img src={img1} class="rounded" alt="..." />
         <img src={img2} class="rounded" alt="..." />
