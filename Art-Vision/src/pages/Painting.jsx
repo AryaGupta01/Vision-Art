@@ -35,7 +35,7 @@ const Painting = () => {
           <div class="card">
             <img src={oil1img} class="card-img-top" alt="..."></img>
               <div class="card-body">
-                <h5 class="card-title">Forest Shed</h5>
+                <h5 id='title1' class="card-title">Forest Shed</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 
               </div>
@@ -51,7 +51,7 @@ const Painting = () => {
           <div class="card">
             <img src={oil3img} class="card-img-top" alt="..."></img>
               <div class="card-body">
-                <h5 class="card-title">Waves</h5>
+                <h5 id='title2' class="card-title">Waves</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 
               </div>
@@ -59,7 +59,7 @@ const Painting = () => {
           <div class="card">
             <img src={oil4img} class="card-img-top" alt="..."></img>
               <div class="card-body">
-                <h5 class="card-title">A FLower Bug</h5>
+                <h5 id='title3' class="card-title">A FLower Bug</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 
               </div>

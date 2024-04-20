@@ -38,9 +38,16 @@ form {
   form button:hover {
     background-color: #3e8e41;
   }
+
  #form_name {
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
     padding: 10px;
-    margin: 10px 0px 0px 850px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }

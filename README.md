@@ -1,34 +1,60 @@
-# Vision Art
+# Vision-Art Gallery Website
 
-Vision Art is a web-based platform that serves as a virtual art gallery, showcasing artworks from both emerging and established artists. With a focus on promoting and supporting the arts community, Vision Art enables users to browse artworks by category, style, or artist. The platform offers features such as virtual exhibitions, artist profiles, and online art sales.
+Welcome to Vision-Art, an online art gallery showcasing an exquisite collection of artworks from talented artists around the world.
+
+Visit our website: [Vision-Art Gallery](https://vision-art.vercel.app/)
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team Members](#team-members)
+
+
+## About
+
+Vision-Art is a platform designed to bring art lovers closer to their favorite pieces, offering a seamless browsing experience with high-quality images and detailed artist information.
 
 ## Features
 
-- **Browse Artworks**: Users can explore a diverse collection of artworks organized by category, style, or artist.
-- **Virtual Exhibitions**: Experience curated virtual exhibitions that showcase thematic collections of artworks.
-- **Artist Profiles**: Discover and learn more about individual artists through detailed profiles showcasing their portfolio and background.
-- **Online Art Sales**: Purchase artworks securely through the platform, supporting artists directly.
-- **User Accounts**: Users can create accounts to personalize their experience, save favorite artworks, and upload their own work for commercial use.
+- **Browse Artworks**: Explore a diverse range of artworks across various categories.
+- **Artist Profiles**: Get to know the talented artists behind the masterpieces.
+- **User-Friendly Interface**: Enjoy a smooth and intuitive browsing experience.
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (React.js)
+- **Frontend**: Vite-React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Deployment**: Heroku, MongoDB Atlas
 
-## Installation
-
-- Clone the repository.
-- Install the dependencies.
-- Set the environment variables.
-- Start the development server.
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Make your changes and commit them with descriptive messages.
-- Push your changes to your fork.
-- Submit a pull request to the main repository.
+We welcome contributions from anyone interested in improving Vision-Art! Please follow these steps to contribute:
+
+1. Fork the repository: [Vision-Art GitHub Repo](https://github.com/AryaGupta01/Vision-Art)
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a pull request
+
+## Team Members
+
+- **Arya Gupta**
+  - GitHub: [Arya Gupta](https://github.com/AryaGupta01)
+  - Role: Project Lead
+
+- **Aayush Bhaduala**
+  - GitHub: [Aayush Bhadula]
+  - Role: Backend Developer
+
+- **Archit Aggarwal**
+  - GitHub: [Archit Aggarwal](https://github.com/Archit-24)
+  - Role: Frontend Developer
+
+- **Aditya Tyagi**
+  - GitHub: [Aditya Tyagi](https://github.com/anos-voldigod)
+  - Role: UI/UX Designer
+
+
