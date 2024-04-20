@@ -35,7 +35,6 @@ const Navbar = () => {
             </ul>
           )}
         </li>
-        <li><Link to="/style">Style</Link></li>
         <li><Link to="/artist">Artist</Link></li>
         <li><Link to="/exhibition">Exhibition</Link></li>
         <li><Link to="/contact-us">Contact Us</Link></li>

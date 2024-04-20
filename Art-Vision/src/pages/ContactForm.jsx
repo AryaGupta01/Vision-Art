@@ -18,6 +18,7 @@ const ContactForm = () => {
   const handleEmailChange = (e) => setEmail(e.target.value);
   const handleSubjectChange = (e) => setSubject(e.target.value);
   const handleMessageChange = (e) => setMessage(e.target.value);
+  axios.defaults.baseURL = 'http://localhost:3000';
 
   const validateForm = () => {
     let isValid = true;

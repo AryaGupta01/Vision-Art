@@ -38,4 +38,9 @@ form {
   form button:hover {
     background-color: #3e8e41;
   }
-  
+ #form_name {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px 0px 850px;
+ }

@@ -117,10 +117,29 @@
 #painting-container .card{
     margin-top: 40%;
 }
-
+#title{
+    margin-left:25%;
+    margin-right:20%;
+}
 .card-title{
     margin-top: 20%;
 }
+#flowering{
+    margin-left:60%;
+}
 #sunflower{
     margin-top:25%;
+}
+#krishnaimg{
+    margin-left:20%;
+}
+#sand-head{
+    margin-top:35%;
+    margin-bottom:20%;
+}
+#stone-head{
+    margin-top:45%;
+}
+#cobelstone-head{
+    margin-top:45%;
 }

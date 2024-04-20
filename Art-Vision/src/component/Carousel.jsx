@@ -6,12 +6,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import banner01 from '../assets/Banner_image/banner01.jpg';
 import banner02 from '../assets/Banner_image/banner02.jpg'; // Adjust the path as needed
 import banner03 from '../assets/Banner_image/banner03.jpg'; // Adjust the path as needed
-import b1 from '../assets/Banner_image/banner011.png'; // Adjust the path as needed
-import b2 from '../assets/Banner_image/banner02.png'; // Adjust the path as needed
-import b3 from '../assets/Banner_image/banner03.png'; // Adjust the path as needed
+ // Adjust the path as needed
 
 import './carousel.css';
-const Carousel = () => {
+const Carousel = ({b1,b2,b3}) => {
   const settings = {
     dots: true,
     arrows: true,
